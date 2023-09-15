@@ -1,0 +1,44 @@
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar-main{
+  display: flex;
+  padding: 1rem 0rem;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.navbar h1{
+  margin-left: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.links{
+  margin: 0rem 0.7rem;
+  transition: 0.5s;
+  padding-bottom: 0.2rem;
+}
+
+.links:hover{
+  border-bottom: 1px solid #0079FF;
+  height: 100%;
+}
+
+@media only screen and (max-width: 900px){
+  .navbar h1{
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .navbar h1{
+    margin-left: 0rem;
+  }
+  .navbar-main{
+    width: 95%;
+  }
+}
